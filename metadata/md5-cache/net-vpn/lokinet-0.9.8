@@ -1,0 +1,15 @@
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/zeromq dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
+DESCRIPTION=LokiNET is an anonymous, decentralized and IP based overlay network that aims to be low-latency, high bandwidth and resistant to Sybil attacks.
+EAPI=8
+HOMEPAGE=https://lokinet.org
+INHERIT=cmake
+IUSE=cpu_flags_x86_avx2 coverage daemon debug embedded hive jemalloc liblokinet netns shadow testnet test
+KEYWORDS=amd64 ~x86 ~arm64 ~arm ~mips ~mips64 ~ppc64
+LICENSE=GPL-3+
+RDEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/zeromq dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
+SLOT=0
+SRC_URI=https://github.com/oxen-io/lokinet/releases/download/v0.9.8/lokinet-v0.9.8.tar.xz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	3c38df051095289667b6f09ebd0cc149
+_md5_=3fe09e8b97cf21d8afe7865d8aa4d137
