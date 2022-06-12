@@ -2,5 +2,5 @@ acct-group/lokinet 0-r1: Group for LokiNET
 acct-group/oxen 0-r1: Group for OXEN projects
 acct-user/lokinet 0-r1: User for LokiNET
 acct-user/oxen 0-r1: User for OXEN projects
-net-p2p/oxencore 9.2.0: OXEN Wallet & Daemon
-net-vpn/lokinet 0.9.8: LokiNET is an anonymous, decentralized and IP based overlay network that aims to be low-latency, high bandwidth and resistant to Sybil attacks.
+net-p2p/oxencore 9.2.0 10.1.0: OXEN Wallet & Daemon
+net-vpn/lokinet 0.9.8 0.9.9: LokiNET is an anonymous, decentralized and IP based overlay network that aims to be low-latency, high bandwidth and resistant to Sybil attacks.
