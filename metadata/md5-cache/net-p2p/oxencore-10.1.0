@@ -11,5 +11,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=dev-vcs/git dev-util/cmake dev-util/pkgconf >=dev-libs/boost-1.65 dev-libs/openssl net-misc/curl sys-libs/libunwind >=net-dns/unbound-1.4.16 net-libs/zeromq dev-db/sqlite:3 app-arch/xz-utils >=sys-libs/readline-6.3.0 >=net-libs/ldns-1.6.17 >=dev-libs/expat-1.1 app-doc/doxygen dev-qt/linguist-tools:5 dev-libs/hidapi dev-libs/libusb dev-libs/protobuf >=net-libs/miniupnpc-2.1 virtual/libcrypt acct-user/oxen acct-group/oxen
 SLOT=0
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=5174360be8c8ce2d3f06edf80af47f79
