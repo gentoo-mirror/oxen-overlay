@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/zeromq virtual/libcrypt dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
+DEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/oxenmq virtual/libcrypt dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
 DESCRIPTION=LokiNET is an anonymous, decentralized and IP based overlay network that aims to be low-latency, high bandwidth and resistant to Sybil attacks.
 EAPI=8
 HOMEPAGE=https://lokinet.org
@@ -8,8 +8,8 @@ INHERIT=cmake
 IUSE=cpu_flags_x86_avx2 coverage daemon debug embedded hive jemalloc liblokinet netns shadow testnet test
 KEYWORDS=amd64 ~x86 ~arm64 ~arm ~mips ~mips64 ~ppc64
 LICENSE=GPL-3+
-RDEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/zeromq virtual/libcrypt dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
+RDEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/oxenmq virtual/libcrypt dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
 SLOT=0
 SRC_URI=https://github.com/oxen-io/lokinet/releases/download/v0.9.9/lokinet-v0.9.9.tar.xz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	29a755b1291d64133634d80b0328f153	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d
-_md5_=14766f3185437943bedb73676c4c3be0
+_md5_=850b5afbbdc0f8ae178b0e6213e9d0b1
