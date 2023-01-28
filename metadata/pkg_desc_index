@@ -2,8 +2,8 @@ acct-group/lokinet 0-r1: Group for LokiNET
 acct-group/oxen 0-r1: Group for OXEN projects
 acct-user/lokinet 0-r1: User for LokiNET
 acct-user/oxen 0-r1: User for OXEN projects
-dev-libs/oxenc 1.0.5: Base 16/32/64 and Bittorrent Encoding/Decoding Header Only Library
+dev-libs/oxenc 1.0.6: Base 16/32/64 and Bittorrent Encoding/Decoding Header Only Library
 net-libs/cppzmq 4.8.1: High-level CPP Binding for ZeroMQ
 net-libs/oxenmq 1.2.14: High-level zeromq-based message passing for network-based projects
-net-p2p/oxencore 10.2.0: OXEN Wallet & Daemon
-net-vpn/lokinet 0.9.10: LokiNET is an anonymous, decentralized and IP based overlay network that aims to be low-latency, high bandwidth and resistant to Sybil attacks.
+net-p2p/oxencore 10.3.0: OXEN Wallet & Daemon
+net-vpn/lokinet 0.9.11: LokiNET is an anonymous, decentralized and IP based overlay network that aims to be low-latency, high bandwidth and resistant to Sybil attacks.
