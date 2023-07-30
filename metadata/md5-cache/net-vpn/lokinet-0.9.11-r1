@@ -11,5 +11,5 @@ LICENSE=GPL-3+
 RDEPEND=dev-vcs/git dev-util/cmake >=dev-libs/libuv-1.27 dev-libs/openssl dev-libs/spdlog net-misc/curl sys-libs/libunwind net-dns/unbound net-libs/oxenmq virtual/libcrypt dev-db/sqlite:3 acct-user/lokinet acct-group/lokinet
 SLOT=0
 SRC_URI=https://github.com/oxen-io/lokinet/releases/download/v0.9.11/lokinet-v0.9.11.tar.xz
-_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	aa1d1fa7be37663d48162ac963b22692
+_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	aa1d1fa7be37663d48162ac963b22692
 _md5_=c9065d130650eb338da74c1cf63c15c5
